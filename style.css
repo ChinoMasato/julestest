@@ -3,16 +3,18 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #111; /* 暗めの背景色に変更 */
+    color: #ccc; /* body全体のデフォルト文字色を明るめに */
 }
 
 h1 {
     margin-top: 20px;
-    color: #333;
+    color: #eee; /* h1の文字色をさらに明るく */
 }
 
 #gameCanvas {
-    border: 1px solid black;
-    background-color: #fff;
+    border: 1px solid #333; /* ボーダーの色を背景に合わせて調整 */
+    /* background-color: #fff; CanvasはJSでクリアするので不要な場合が多い */
     margin-top: 20px;
+    /* CanvasのwidthとheightはJavaScriptで設定 */
 }
